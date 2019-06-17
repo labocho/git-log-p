@@ -2,7 +2,7 @@
 	"name": "git-log-p",
 	"displayName": "git log -p",
 	"description": "Show `git log -p $CURRENT_FILE`",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.35.0"
 	},

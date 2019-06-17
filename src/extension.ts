@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 		const s = new TextDecoder().decode(r.stdout);
 		vscode.workspace.openTextDocument({ content: s, language: "diff" }).then((doc) => {
-			vscode.window.showTextDocument(doc);
+			vscode.window.showTextDocument(doc, { preview: true });
 		});
 	});
 
