@@ -1,6 +1,6 @@
 # git-log-p README
 
-This is the README for your extension "git-log-p". After writing up a brief description, we recommend including the following sections.
+This extension adds command `git log -p $CURRENT_FILE (extension.gitLogP)` that shows `git log -p` for current file.
 
 ## Features
 
